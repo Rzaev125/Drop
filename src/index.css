@@ -1,4 +1,44 @@
+:root {
+  --color-primary: #fff;
+  --color-secondary: #F2F2F2;
+  --color-tertiary: #7ac5ff;
+}
+
 #root, body {
   margin: 0;
-  background-color: #7ac5ff;
+  width: 100vw;
+}
+
+.content {
+  height: 100vh;
+  width: 100vw;
+  border-radius: 1vh;
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-primary);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: row;
+  height: 100vh;
+  font-size: 6vh;
+  background-color: var(--color-primary);
+}
+
+.block {
+  width: 85vw;
+  height: 90vh;
+  border-radius: 1vh;
+  justify-content: center;
+  background-color: var(--color-secondary);
+}
+
+h1 {
+  color: #ff575f;
+  text-align: center;
 }
