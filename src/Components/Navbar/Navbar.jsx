@@ -1,9 +1,9 @@
 import { faCartShopping, faHome, faList, faUser, faInfo, faGear } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
+import Logo from '/public/logo_dark.png';
 import style from './Navbar.module.css';
-import { BrowserRouter, Link } from "react-router-dom";
 
 function Navbar() {
 
@@ -18,11 +18,12 @@ function Navbar() {
 
     return (
         <div className={style.sidebar}>
+            <img className="logo" src={Logo} />
             {menuItems.map((item) => (
                 <Link key={item.id} style={{ textDecoration: 'none' }} to={item.link}>
                     <div className={style.menu_item}>
                         <div className={style.icon}>{item.icon}</div>
-                        <div className={style.text}>{item.name}</div>
+                        <div className={style.text}><b>{item.name}</b></div>
                     </div>
                 </Link>
             ))}

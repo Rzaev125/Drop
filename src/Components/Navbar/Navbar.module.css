@@ -1,26 +1,32 @@
 .sidebar {
   width: 30vh;
-  background-color: #ff575f;
+  background-color: #fff;
   height: 100vh;
   transition: width 0.3s ease;
   overflow: hidden;
   display: flex;
-  
   flex-direction: column;
-  justify-content: center;
-  z-index: 1000;
-  margin-right: 5px;
+
+  img {
+    padding: 0 2.5vh;
+    margin: 8vh 0;
+  }
 
   .menu_item {
     display: flex;
     padding: 5vh 0 5vh 3.5vh;
-    color: #ecf0f1;
+    color: #4e008e;
     cursor: pointer;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
 
     &:hover {
-    background-color: #ff6066;
+      background-color: #4e008e;
+      color: #F2F2F2;
+
+      .text {
+        color: #F2F2F2;
+      }
     }
   }
   
@@ -32,7 +38,7 @@
   .text {
     white-space: nowrap;
     font-size: 3vh;
-    color: #fff;
+    color: #4e008e;
   }
 }
   

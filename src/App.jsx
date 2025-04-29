@@ -5,6 +5,7 @@ import Catalog from "./Pages/Catalog/Catalog";
 import Cart from "./Pages/Cart/Cart";
 import Info from "./Pages/Info/Info";
 import Layout from "./Components/Layout";
+import Settings from "./Pages/Settings/Settings";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/settings" element={<Settings />} />
           <Route path="/info" element={<Info />} />
           <Route path="*" element={<Home />} />
         </Route>

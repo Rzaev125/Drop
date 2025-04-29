@@ -1,7 +1,18 @@
+h1 {
+  font-size: 3vw;
+  color: var(--text-primary);
+  text-align: center;
+} 
+
+h2 { font-size: 2.5vw; } h3 { font-size: 2vw; } p { font-size: 1.2vw; }
+
 :root {
   --color-primary: #fff;
   --color-secondary: #F2F2F2;
   --color-tertiary: #7ac5ff;
+  --text-primary: #4e008e;
+
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #root, body {
@@ -12,11 +23,9 @@
 .content {
   height: 100vh;
   width: 100vw;
-  border-radius: 1vh;
   background-color: var(--color-secondary);
   display: flex;
   justify-content: center;
-  align-items: center;
   color: var(--color-primary);
 }
 
@@ -36,9 +45,4 @@
   border-radius: 1vh;
   justify-content: center;
   background-color: var(--color-secondary);
-}
-
-h1 {
-  color: #ff575f;
-  text-align: center;
 }
