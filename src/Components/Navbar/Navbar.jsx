@@ -2,7 +2,7 @@ import { faCartShopping, faHome, faList, faUser, faInfo, faGear } from "@fortawe
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
-import Logo from '/public/logo_dark.png';
+import Logo from '../../assets/img/logo_dark.png';
 import style from './Navbar.module.css';
 
 function Navbar() {

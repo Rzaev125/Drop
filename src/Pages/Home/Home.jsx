@@ -1,4 +1,5 @@
 import style from './Home.module.css';
+import ProductImg from '../../assets/img/test_product.png';
 
 function Home() {
     return (
@@ -35,28 +36,77 @@ function Home() {
                 <hr />
 
                 <div className={style.products_box}>
-                    <div className={style.product}>
-                        <img src='/public/test_product.png' alt='Product 1' className={style.product_image} />
-                        <div className={style.product_info}>
-                            <p className={style.info}>hikvsion</p>
-                            <p className={style.info}>ip kamera</p>
-                            <p className={style.info}>hybrid</p>
+                    <div className={style.product_card}>
+                        <div className={style.product_specs}>
+                            <button className={style.spec_button}><b>Hikvision</b></button>
+                            <button className={style.spec_button}><b>IP Kamera</b></button>
+                        </div>
+                        <div className={style.product_icons}>
+                            <div className={style.icon}>❤️</div>
+                            <div className={style.icon}>↔️</div>
+                            <div className={style.icon}>⚖️</div>
+                        </div>
+                        <img className={style.product_image} src={ProductImg} alt='Product 1' />
+                        <h2 className={style.product_title}>DS-2CE17D0T-IT3</h2>
+                        <div className={style.product_price_container}>
+                            <span className={style.product_price}>199 AZN</span>
+                            <button className={style.price_button}>Qiymat</button>
                         </div>
                     </div>
-                    <div className={style.product}>
-                        {/* <img src='/public/test_product.webp' alt='Product 1' className={style.product_image} /> */}
-                        <h3 className={style.product_title}>Product 1</h3>
-                        <p className={style.product_price}>$10.00</p>
+
+                    <div className={style.product_card}>
+                        <div className={style.product_specs}>
+                            <button className={style.spec_button}><b>Hikvision</b></button>
+                            <button className={style.spec_button}><b>IP Kamera</b></button>
+                        </div>
+                        <div className={style.product_icons}>
+                            <div className={style.icon}>❤️</div>
+                            <div className={style.icon}>↔️</div>
+                            <div className={style.icon}>⚖️</div>
+                        </div>
+                        <img className={style.product_image} src={ProductImg} alt='Product 1' />
+                        <h2 className={style.product_title}>DS-2CE17D0T-IT3</h2>
+                        <div className={style.product_price_container}>
+                            <span className={style.product_price}>199 AZN</span>
+                            <button className={style.price_button}>Qiymat</button>
+                        </div>
                     </div>
-                    <div className={style.product}>
-                        {/* <img src='/public/test_product.webp' alt='Product 1' className={style.product_image} /> */}
-                        <h3 className={style.product_title}>Product 1</h3>
-                        <p className={style.product_price}>$10.00</p>
+
+                    <div className={style.product_card}>
+                        <div className={style.product_specs}>
+                            <button className={style.spec_button}><b>Hikvision</b></button>
+                            <button className={style.spec_button}><b>IP Kamera</b></button>
+                        </div>
+                        <div className={style.product_icons}>
+                            <div className={style.icon}>❤️</div>
+                            <div className={style.icon}>↔️</div>
+                            <div className={style.icon}>⚖️</div>
+                        </div>
+                        <img className={style.product_image} src={ProductImg} alt='Product 1' />
+                        <h2 className={style.product_title}>DS-2CE17D0T-IT3</h2>
+                        <div className={style.product_price_container}>
+                            <span className={style.product_price}>199 AZN</span>
+                            <button className={style.price_button}>Qiymat</button>
+                        </div>
                     </div>
-                    <div className={style.product}>
-                        {/* <img src='/public/test_product.webp' alt='Product 1' className={style.product_image} /> */}
-                        <h3 className={style.product_title}>Product 1</h3>
-                        <p className={style.product_price}>$10.00</p>
+
+                    <div className={style.product_card}>
+                        <div className={style.product_specs}>
+                            <button className={style.spec_button}><b>Hikvision</b></button>
+                            <button className={style.spec_button}><b>IP Kamera</b></button>
+                        </div>
+                        <div className={style.product_icons}>
+                            <div className={style.icon}>❤️</div>
+                            <div className={style.icon}>↔️</div>
+                            <div className={style.icon}>⚖️</div>
+                        </div>
+                        <img className={style.product_image} src={ProductImg} alt='Product 1' />
+                        <hr />
+                        <h2 className={style.product_title}>DS-2CE17D0T-IT3</h2>
+                        <div className={style.product_price_container}>
+                            <span className={style.product_price}>199 AZN</span>
+                            <button className={style.price_button}>Qiymat</button>
+                        </div>
                     </div>
                 </div>
             </div>
